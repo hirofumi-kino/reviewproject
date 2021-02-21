@@ -14,6 +14,7 @@
             <h5 class="card-title">投稿者：{{ item.author }}</h5>
             <h5 class="card-title">レビューが参考になった人：{{ item.useful_review }}人</h5>
             <a href="{% url 'list' %}" class="btn btn-primary">詳しく見る</a>
+            <a href="{% url 'logout' %}" class="btn btn-danger">詳しく見る</a>
         </div>
     </div>
     {% endfor %}
